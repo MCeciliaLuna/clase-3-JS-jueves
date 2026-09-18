@@ -124,3 +124,21 @@ familiares.map(
 )
 
 // console.log("NUEVOS FAMILIARES", nuevosFamiliares)
+
+//DOM JAVASCRIPT
+console.log(document);
+
+const alertFunction = () => {
+    alert("PRESIONASTE EL BOTÓN")
+}
+
+//llamar a la función:
+// alertFunction()
+
+const nombreInput = document.getElementById("nombre-usuario")
+
+console.log(nombreInput)
+
+const valorInput = () => {
+    console.log(nombreInput.value)
+}
